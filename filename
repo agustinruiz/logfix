@@ -1,0 +1,216 @@
+$ASHTP|13Apr21 06:21:22.02|20|sha512 fingerprint of highest server certificate is <B1BE00B296AE0AB67984DA2FFBC8EF5B1DE035A36D833B644ACEECF575A007C9B8A0D91030D51A779170150F91DF04DF334700627986706A00D0799FBA85A439>
+$ASHTP|13Apr21 06:21:22.02|20|ripemd160 fingerprint of highest server certificate is <3FDB1A457A39C9423372BDB021CDDCC6C457943B>
+$ASHTP|13Apr21 06:21:22.03|20|whirlpool fingerprint of highest server certificate is <69FDB28DC613570666B0A8F29B4ADAC549D7FC0935361B852DBB9677FDEA685D5A044578F7C26F193A6191F1FE5EA7CFB75DD99BC9A763B1FD68E3F3BEB359E3>
+$ASHTP|13Apr21 06:21:22.03|30|loading private key from file '$devSSL.osmcerts.servkey'
+$ASHTP|13Apr21 06:21:22.04|30|File '$devSSL.osmcerts.servkey' determined to be DER encoded, content not checked
+$ASHTP|13Apr21 06:21:22.04|20|SSL buffer size is:      SSLBUF=       16384
+$ASHTP|13Apr21 06:21:22.05|20|Socket buffer sizes are: SOCKETSNDBUF= 16384, SOCKETRCVBUF= 16384
+$ASHTP|13Apr21 06:21:22.05|20|TCP buffer sizes are:    TCPSNDBUF=    16384, TCPRCVBUF=    16384
+$ASHTP|13Apr21 06:21:22.06|20|Starting HTTPS server on port 3381, default dir '$hh.testdata'
+$ASHTP|13Apr21 06:21:22.06|30|-- HTTPS setup completed, starting to listen... --
+$ASHTP|13Apr21 06:21:36.92|10|using HTTP ZIP archive '$hh.testdata.httpzip'
+$ASHTP|13Apr21 06:21:37.45| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:21:37.45|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:21:37.45|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:21:37.46|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:21:37.46|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:21:37.55| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:21:37.56|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:21:37.56|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:21:37.57|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:21:37.57|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:21:38.57|30|H|returning error 404
+$ASHTP|13Apr21 06:21:47.03|30|H|returning error 404
+$ASHTP|13Apr21 06:22:00.19| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:22:00.19|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:22:00.20|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:22:00.20|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:22:00.20|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:22:00.89|30|H|returning error 404
+$ASHTP|13Apr21 06:22:00.93| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:22:00.94|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:22:00.94|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:22:00.95|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:22:00.95|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:22:48.77| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:22:48.78|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:22:48.78|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:22:48.79|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:22:48.79|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:23:21.87| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:23:21.87|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:23:21.87|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:23:21.88|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:23:21.88|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:23:44.63| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:23:44.64|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:23:44.64|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:23:44.64|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:23:44.65|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:23:50.62| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:23:50.62|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:23:50.62|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:23:50.63|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:23:50.63|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:23:57.13|30|H|returning error 404
+$ASHTP|13Apr21 06:33:12.16|30|----------------------------------------------------------------
+$ASHTP|13Apr21 06:33:12.17| 5|comForte SWAP version T9999L02_26FEB2021_comForte_SSLD_22_0_0_IPv6_
+$ASHTP|13Apr21 06:33:12.18|10|using OpenSSL 1.1.1k  25 Mar 2021 - see http://www.openssl.org
+$ASHTP|13Apr21 06:33:12.18|10|config file: '*', config file2: '*', config extension: '*', is STN daemon=0
+$ASHTP|13Apr21 06:33:12.18|10|runtime args: 'HTTPS; HTTPBASE $HH.TESTDATA; HTTPZIP $HH.TESTDATA.HTTPZIP; LOGCONSOLE %'
+$ASHTP|13Apr21 06:33:12.19|20|--------- start settings for Logging  -----------
+$ASHTP|13Apr21 06:33:12.19|20| process name is $ASHTP
+$ASHTP|13Apr21 06:33:12.19|20| trace file is 'LOG' ('*' means none)
+$ASHTP|13Apr21 06:33:12.20|20| max file length 20480000 bytes
+$ASHTP|13Apr21 06:33:12.20|20| console is '%' ('*' means none, '%' means home terminal)
+$ASHTP|13Apr21 06:33:12.21|20| global maximum level is 50, maximum dump length is 112
+$ASHTP|13Apr21 06:33:12.21|20|--------- end settings for Logging -------------
+$ASHTP|13Apr21 06:33:12.21|10|log level for console is 50
+$ASHTP|13Apr21 06:33:12.22|10|log level for logfile is 30
+$ASHTP|13Apr21 06:33:12.22|10|log level for EMS     is 10
+$ASHTP|13Apr21 06:33:12.23|10|global log max level     is 50
+$ASHTP|13Apr21 06:33:12.23|10|global trace max level     is 100
+$ASHTP|13Apr21 06:33:12.23|20|Object filename is  '\NPNSX01.$AS.SWAP.SWAPDBG'
+$ASHTP|13Apr21 06:33:12.24|20|Object subvolume is '\NPNSX01.$AS.SWAP', priorityis 156
+$ASHTP|13Apr21 06:33:12.26|20|Your system number is <078480>, your system type is NS3 X1
+$ASHTP|13Apr21 06:33:12.26|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 53139
+$ASHTP|13Apr21 06:33:12.26|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 12151
+$ASHTP|13Apr21 06:33:12.27|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 59479
+$ASHTP|13Apr21 06:33:12.27|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 75536
+$ASHTP|13Apr21 06:33:12.28|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 78480
+$ASHTP|13Apr21 06:33:12.28|10|license file check OK
+$ASHTP|13Apr21 06:33:12.29|30|starting collecting of random data
+$ASHTP|13Apr21 06:33:15.61|10|collection of 64 bytes random data finished
+$ASHTP|13Apr21 06:33:17.43|10|AES-NI is enabled
+$ASHTP|13Apr21 06:33:17.43|10|GCM-NI is enabled
+$ASHTP|13Apr21 06:33:17.44|10|0 server SNI entries configured
+$ASHTP|13Apr21 06:33:17.46|20|DEFINE =CIP^COMPAT^ERROR was set to <\NPNSX01.$AS.SWAP.SUPPRESS>
+$ASHTP|13Apr21 06:33:17.46|10|DEFINE =TCPIP^PROCESS^NAME has value '\NPNSX01.$ZTC0'
+$ASHTP|13Apr21 06:33:17.46|10|parameters SUBNET and TARGETSUBNET will be ignored and the define value will be used
+$ASHTP|13Apr21 06:33:17.46|20|TCP/IP process as set by DEFINE =TCPIP^PROCESS^NAME is \NPNSX01.$ZTC0
+$ASHTP|13Apr21 06:33:17.47|20|effective SUBNET is \NPNSX01.$ZTC0
+$ASHTP|13Apr21 06:33:17.47|20|effective TARGETSUBNET is \NPNSX01.$ZTC0
+$ASHTP|13Apr21 06:33:17.48|30|dumping configuration:[def  ] ALLOWCERTERRORS      <none>[def  ] ALLOWIP              <*>[def  ] ALLOWRENEGOTIATION   <FALSE>[def  ] AUDITCONSOLE         <*>[def  ] AUDITDELIMITER       <,>[def  ] AUDITFILE            <*>[def  ] AUDITFILELAYOUT      <CSV>[def  ] AUDITFILERETENTION   <10>[def  ] AUDITFORMAT          <93>[def  ] AUDITFORMATSYSLOG    <93>[def  ] AUDITLEVEL           <50>[def  ] AUDITLEVELSYSLOG     <50>[def  ] AUDITMAXFILELENGTH   <20000>[def  ] AUDITSYSLOG          <*>[def  ] BURSTSUPPRESSION     <FALSE>[def  ] BURSTSUPPRESSIONMAXLOGLEVEL <40>[par  ] CACERTS              <$devSSL.osmcerts.cacerx>[def  ] CACHEBURSTSUPPRESSION <FALSE>[def  ] CERTSTORE            <*>[def  ] CIPCOMPATIBILITYDEFINE <TRUE>[def  ] CIPHERSUITES         <default>[def  ] CLIENTAUTH           <*>[def  ] CONFIG               <>[def  ] CONFIG2              <*>[def  ] CONFIGEXT            <*>[def  ] CONNECTIONINFOFORMAT <EXTENDED>[def  ] CONNECTIONINFOFORMATDETAILED <EXTENDED>[def  ] CONSOLEBURSTSUPPRESSION <FALSE>[par  ] DEFAULTS             <\NPNSX01.$AS.SWAP>[def  ] DENYIP               <>[def  ] DNSAUTOSETRESOLVERPROCESS <TRUE>[def  ] DNSRESOLVERTCPIPPROCESSNAME <>[def  ] DONOTWARNONERROR     <>[def  ] DYNAMICROUTINGENABLEIPV6 <FALSE>[def  ] ELLIPTICCURVENAME    <*>[def  ] EMSBURSTSUPPRESSION  <FALSE>[def  ] FILEBURSTSUPPRESSION <FALSE>[def  ] FTPSALLOWPLAINDATACHANNEL <FALSE>[def  ] HARDWAREACCELERATE   <ALL>[def  ] HASHALGORITHMS       <whirlpool>[def  ] HEAPSIZELIMIT        <367001600>[run  ] HTTPBASE             <$hh.testdata>[def  ] HTTPLOGLEGACYIPFORMAT <TRUE>[run  ] HTTPZIP              <$hh.testdata.httpzip>[def  ] INTERFACE            <*>[def  ] IOLOG                <0>[def  ] IPMODE               <IPV4>[def  ] LICENSE              <\NPNSX01.$AS.SWAP.LICENSE>[def  ] LOGCACHEDUMPONABORT  <TRUE>[def  ] LOGCACHESIZE         <2000>[run  ] LOGCONSOLE           <%>[def  ] LOGEMS               <*>[par  ] LOGFILE              <LOG>[def  ] LOGFILERETENTION     <10>[def  ] LOGFORMATCONSOLE     <93>[def  ] LOGFORMATEMS         <16>[def  ] LOGFORMATFILE        <93>[def  ] LOGFORMATSYSLOG      <93>[def  ] LOGLEVELCACHE        <0>[def  ] LOGLEVELCONSOLE      <50>[def  ] LOGLEVELEMS          <10>[par  ] LOGLEVELFILE         <30>[def  ] LOGLEVELSYSLOG       <50>[def  ] LOGMAXDUMP           <100>[def  ] LOGMAXFILELENGTH     <20000>[def  ] LOGMEMORY            <0>[def  ] LOGMEMORYDETAILED    <0>[def  ] LOGSYSLOG            <*>[def  ] MAXSESSIONS          <0>[def  ] MAXVERSION           <TLSv1.2>[def  ] MINVERSION           <TLSv1.2>[def  ] OPENSSLABENDONERROR  <FALSE>[def  ] PEERCERTCOMMONNAME   <*>[def  ] PEERCERTFINGERPRINT  <*>[par  ] PORT                 <3381>[def  ] PTCPIPFILTERKEY      <*>[def  ] RANDLIB_EXTRA_CPU_LOAD_ROUNDS <0>[def  ] RANDLIB_INCLUDE_SENSITIVE_DATA <FALSE>[def  ] RANDLIB_LOGGING      <FALSE>[def  ] RANDOMDELAY          <10>[def  ] RANDOMFEED           <64>[def  ] REVERSESSL           <0>[def  ] RFC4217COMPATIBILITY <FALSE>[def  ] ROLLOVERCHECKINTERVAL <1000>[def  ] ROUTINGMODE          <S>[par  ] SERVCERT             <$devssl.OSMCERTS.SERVCERX>[par  ] SERVKEY              <$devSSL.osmcerts.servkey>[par  ] SERVKEYPASS          <??11??>[def  ] SLOWDOWN             <0>[par  ] SOCKETDELETEDELAY    <FALSE>[def  ] SRAND                <>[def  ] SSLMODE              <AUTO>[def  ] SSLVERIFYPURPOSE     <FALSE>[par  ] STDERR               <\NPNSX01.$AMIP.#CIPIO.T635>[par  ] STDIN                <\NPNSX01.$AMIP.#CIPIO.T635>[par  ] STDOUT               <\NPNSX01.$AMIP.#CIPIO.T635>[def  ] SUBNET               <$ZTC0>[def  ] SWAPCOMSECURITY      <FALSE>[def  ] SYSLOGBURSTSUPPRESSION <FALSE>[def  ] SYSLOGRETRY          <30>[def  ] SYSLOGSEVERITYMAP    <0:0,2:1-4,3:5,4:6-10,5:11-30,6:31-50,7:51-9999>[def  ] SYSLOGSUBNET         <*>[def  ] TCPIPHOSTFILE        <*>[def  ] TCPIPNODEFILE        <*>[def  ] TCPIPPROCESSDEFINEOVERSUBNETS <TRUE>[def  ] TCPIPRESOLVERNAME    <*>[def  ] TCPNODELAY           <FALSE>
+$ASHTP|13Apr21 06:33:17.48|30|ProcessInfo --START------------------- CPU ------------------Total CPU Usage: 0.16 s-------------- MAIN STACK --------------Origin of Main Stack:                   1879048192Current Main Stack Size:                262144 bytes ( 256 KiB )Maximum available Main Stack Size:      10485760 bytes ( 10 MiB )Main Stack Usage:                       2.5%----------- PRIVILEGED STACK -----------Origin of Privileged Stack:             1845395456Current Privileged Stack Size:          131072 bytes ( 128 KiB )Maximum available Privileged Stack:     950272 bytes ( 928 KiB )Privileged Stack Usage 13.8%----------------- HEAP -----------------Start of Native Heap Area:              142708736Current Native Heap Area Size:          552960 bytes ( 540 KiB )Current actual Native Heap usage:       445904 bytes ( 435.453 KiB )Maximum used Heap Size:                 552960 bytes ( 540 KiB )Maximum theoretical Native Heap Size:   1602121728 bytes ( 1.49209 GiB )Maximum actual Native Heap Size limit:  367001600 bytes ( 350 MiB )Native Heap Usage:                      0.121% (theoretical: 0.0278%)-- Heap Details --RTL_Heap_min_block         (= 0): 8RTL_Heap_erase_on_free     (= 1): 0RTL_Heap_erase_on_get      (= 2): 0RTL_Heap_segment_threshold (= 3): 33554432RTL_Heap_segments_max      (= 4): 0RTL_Heap_space_size        (=10): 544752RTL_Heap_space_active      (=11): 445904RTL_Heap_free_blocks       (=12): 2RTL_Heap_free_space        (=13): 98960RTL_Heap_segments          (=14): 0RTL_Heap_segment_space     (=15): 0---------------- MEMORY ----------------Current Memory Pages: 607
+$ASHTP|13Apr21 06:33:17.48|30|ProcessInfo --END--
+$ASHTP|13Apr21 06:33:17.51|30|loading Server Certificate from file '$devssl.OSMCERTS.SERVCERX'
+$ASHTP|13Apr21 06:33:17.56|30|CACERTS order checked ok $devSSL.osmcerts.cacerx
+$ASHTP|13Apr21 06:33:17.56|20|adding CA Certificate Chain Level 1/1: '$devSSL.osmcerts.cacerx'
+$ASHTP|13Apr21 06:33:17.56|30|loading next Certificate Chain file from file '$devSSL.osmcerts.cacerx'
+$ASHTP|13Apr21 06:33:17.57|20|md5 fingerprint of highest server certificate is <EB298DB80AA77514CA3578E2854591AF>
+$ASHTP|13Apr21 06:33:17.58|20|sha1 fingerprint of highest server certificate is<F560D105A6D1C7F6805E03546A9719012397B2A9>
+$ASHTP|13Apr21 06:33:17.58|20|sha256 fingerprint of highest server certificate is <8B8653C2B1B469ABFB6223E40C03C6A43C9D3463F67F6B6C926FC01050622C2F>
+$ASHTP|13Apr21 06:33:17.59|20|sha384 fingerprint of highest server certificate is <F61CAF287CE25D396AA9E29253C537DCF765B34128F7775440C5B483FB6AF7787C212E0E61FD9CEA55F4217517AEF938>
+$ASHTP|13Apr21 06:33:17.59|20|sha512 fingerprint of highest server certificate is <B1BE00B296AE0AB67984DA2FFBC8EF5B1DE035A36D833B644ACEECF575A007C9B8A0D91030D51A779170150F91DF04DF334700627986706A00D0799FBA85A439>
+$ASHTP|13Apr21 06:33:17.59|20|ripemd160 fingerprint of highest server certificate is <3FDB1A457A39C9423372BDB021CDDCC6C457943B>
+$ASHTP|13Apr21 06:33:17.60|20|whirlpool fingerprint of highest server certificate is <69FDB28DC613570666B0A8F29B4ADAC549D7FC0935361B852DBB9677FDEA685D5A044578F7C26F193A6191F1FE5EA7CFB75DD99BC9A763B1FD68E3F3BEB359E3>
+$ASHTP|13Apr21 06:33:17.60|30|loading private key from file '$devSSL.osmcerts.servkey'
+$ASHTP|13Apr21 06:33:17.61|20|SSL buffer size is:      SSLBUF=       16384
+$ASHTP|13Apr21 06:33:17.62|20|Socket buffer sizes are: SOCKETSNDBUF= 16384, SOCKETRCVBUF= 16384
+$ASHTP|13Apr21 06:33:17.62|20|TCP buffer sizes are:    TCPSNDBUF=    16384, TCPRCVBUF=    16384
+$ASHTP|13Apr21 06:33:17.62|20|Starting HTTPS server on port 3381, default dir '$hh.testdata'
+$ASHTP|13Apr21 06:33:17.64|30|-- HTTPS setup completed, starting to listen... --
+$ASHTP|13Apr21 06:35:17.32|10|using HTTP ZIP archive '$hh.testdata.httpzip'
+$ASHTP|13Apr21 06:37:54.08| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:37:54.08|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1544.
+$ASHTP|13Apr21 06:37:54.09|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:37:54.09|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:37:54.10|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x88c9020 (dumpFormat=3)
+$ASHTP|13Apr21 06:37:54.10| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:37:54.10|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1544.
+$ASHTP|13Apr21 06:37:54.11|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:37:54.11|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:37:54.12|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x88c9020 (dumpFormat=3)
+$ASHTP|13Apr21 06:37:55.13|30|H|returning error 404
+$ASHTP|13Apr21 06:41:32.76|30|----------------------------------------------------------------
+$ASHTP|13Apr21 06:41:32.77| 5|comForte SWAP version T9999L02_29Aug2019_comForte_SSLD_21_9_0_IPv6_
+$ASHTP|13Apr21 06:41:32.78|10|using OpenSSL 1.1.1c  28 May 2019 - see http://www.openssl.org
+$ASHTP|13Apr21 06:41:32.78|10|config file: '*', config file2: '*', is STN daemon=0
+$ASHTP|13Apr21 06:41:32.78|10|runtime args: 'HTTPS; HTTPBASE $HH.TESTDATA; HTTPZIP $HH.TESTDATA.HTTPZIP; LOGCONSOLE %'
+$ASHTP|13Apr21 06:41:32.79|20|--------- start settings for Logging  -----------
+$ASHTP|13Apr21 06:41:32.79|20| process name is $ASHTP
+$ASHTP|13Apr21 06:41:32.80|20| trace file is 'LOG' ('*' means none)
+$ASHTP|13Apr21 06:41:32.80|20| max file length 20480000 bytes
+$ASHTP|13Apr21 06:41:32.80|20| console is '%' ('*' means none, '%' means home terminal)
+$ASHTP|13Apr21 06:41:32.81|20| global maximum level is 50, maximum dump length is 112
+$ASHTP|13Apr21 06:41:32.81|20|--------- end settings for Logging -------------
+$ASHTP|13Apr21 06:41:32.82|10|log level for console is 50
+$ASHTP|13Apr21 06:41:32.82|10|log level for logfile is 30
+$ASHTP|13Apr21 06:41:32.82|10|log level for EMS     is 10
+$ASHTP|13Apr21 06:41:32.83|10|global log max level     is 50
+$ASHTP|13Apr21 06:41:32.83|10|global trace max level     is 100
+$ASHTP|13Apr21 06:41:32.84|20|Object filename is  '\NPNSX01.$AS.SWAP.SW2190DB'
+$ASHTP|13Apr21 06:41:32.84|20|Object subvolume is '\NPNSX01.$AS.SWAP', priorityis 156
+$ASHTP|13Apr21 06:41:32.86|20|Your system number is <078480>, your system type is NS3 X1
+$ASHTP|13Apr21 06:41:32.86|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 53139
+$ASHTP|13Apr21 06:41:32.86|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 12151
+$ASHTP|13Apr21 06:41:32.87|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 59479
+$ASHTP|13Apr21 06:41:32.87|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 75536
+$ASHTP|13Apr21 06:41:32.88|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 78480
+$ASHTP|13Apr21 06:41:32.88|10|license file check OK
+$ASHTP|13Apr21 06:41:32.88|30|starting collecting of random data
+$ASHTP|13Apr21 06:41:36.20|10|collection of 64 bytes random data finished
+$ASHTP|13Apr21 06:41:37.95|10|AES-NI is disabled
+$ASHTP|13Apr21 06:41:37.95|10|GCM-NI is disabled
+$ASHTP|13Apr21 06:41:37.96|20|DEFINE =CIP^COMPAT^ERROR was set to <\NPNSX01.$AS.SWAP.SUPPRESS>
+$ASHTP|13Apr21 06:41:37.96|10|DEFINE =TCPIP^PROCESS^NAME has value '\NPNSX01.$ZTC0'
+$ASHTP|13Apr21 06:41:37.97|10|parameters SUBNET and TARGETSUBNET will be ignored and the define value will be used
+$ASHTP|13Apr21 06:41:37.97|20|TCP/IP process as set by DEFINE =TCPIP^PROCESS^NAME is \NPNSX01.$ZTC0
+$ASHTP|13Apr21 06:41:37.97|20|effective SUBNET is \NPNSX01.$ZTC0
+$ASHTP|13Apr21 06:41:37.98|20|effective TARGETSUBNET is \NPNSX01.$ZTC0
+$ASHTP|13Apr21 06:41:37.98|30|dumping configuration:[def  ] ALLOWCERTERRORS      <none>[def  ] ALLOWIP              <*>[def  ] ALLOWRENEGOTIATION   <FALSE>[def  ] AUDITCONSOLE         <*>[def  ] AUDITDELIMITER       <,>[def  ] AUDITFILE            <*>[def  ] AUDITFILELAYOUT      <CSV>[def  ] AUDITFILERETENTION   <10>[def  ] AUDITFORMAT          <93>[def  ] AUDITFORMATSYSLOG    <93>[def  ] AUDITLEVEL           <50>[def  ] AUDITLEVELSYSLOG     <50>[def  ] AUDITMAXFILELENGTH   <20000>[def  ] AUDITSYSLOG          <*>[def  ] BURSTSUPPRESSION     <FALSE>[def  ] BURSTSUPPRESSIONMAXLOGLEVEL <40>[par  ] CACERTS              <$devSSL.osmcerts.cacerx>[def  ] CACHEBURSTSUPPRESSION <FALSE>[def  ] CERTSTORE            <*>[def  ] CIPCOMPATIBILITYDEFINE <TRUE>[def  ] CIPHERSUITES         <default>[def  ] CLIENTAUTH           <*>[def  ] CONFIG               <>[def  ] CONFIG2              <*>[def  ] CONNECTIONINFOFORMAT <EXTENDED>[def  ] CONNECTIONINFOFORMATDETAILED <EXTENDED>[def  ] CONSOLEBURSTSUPPRESSION <FALSE>[par  ] DEFAULTS             <\NPNSX01.$AS.SWAP>[def  ] DENYIP               <>[def  ] DNSAUTOSETRESOLVERPROCESS <TRUE>[def  ] DNSRESOLVERTCPIPPROCESSNAME <>[def  ] DONOTWARNONERROR     <>[def  ] DYNAMICROUTINGENABLEIPV6 <FALSE>[def  ] ELLIPTICCURVENAME    <*>[def  ] EMSBURSTSUPPRESSION  <FALSE>[def  ] FILEBURSTSUPPRESSION <FALSE>[def  ] FTPSALLOWPLAINDATACHANNEL <FALSE>[def  ] HARDWAREACCELERATE   <NONE>[def  ] HASHALGORITHMS       <whirlpool>[def  ] HEAPSIZELIMIT        <367001600>[run  ] HTTPBASE             <$hh.testdata>[def  ] HTTPLOGLEGACYIPFORMAT <TRUE>[run  ] HTTPZIP              <$hh.testdata.httpzip>[def  ] INTERFACE            <*>[def  ] IOLOG                <0>[def  ] IPMODE               <IPV4>[def  ] LICENSE              <\NPNSX01.$AS.SWAP.LICENSE>[def  ] LICENSECHECKVERBOSE  <0>[def  ] LOGCACHEDUMPONABORT  <TRUE>[def  ] LOGCACHESIZE         <2000>[run  ] LOGCONSOLE           <%>[def  ] LOGEMS               <*>[par  ] LOGFILE              <LOG>[def  ] LOGFILERETENTION     <10>[def  ] LOGFORMATCONSOLE     <93>[def  ] LOGFORMATEMS         <16>[def  ] LOGFORMATFILE        <93>[def  ] LOGFORMATSYSLOG      <93>[def  ] LOGLEVELCACHE        <0>[def  ] LOGLEVELCONSOLE      <50>[def  ] LOGLEVELEMS          <10>[par  ] LOGLEVELFILE         <30>[def  ] LOGLEVELSYSLOG       <50>[def  ] LOGMAXDUMP           <100>[def  ] LOGMAXFILELENGTH     <20000>[def  ] LOGMEMORY            <0>[def  ] LOGMEMORYDETAILED    <0>[def  ] LOGSYSLOG            <*>[def  ] MAXSESSIONS          <0>[def  ] MAXVERSION           <TLSv1.2>[def  ] MINVERSION           <TLSv1.2>[def  ] OPENSSLABENDONERROR  <FALSE>[def  ] PEERCERTCOMMONNAME   <*>[def  ] PEERCERTFINGERPRINT  <*>[par  ] PORT                 <3381>[def  ] PTCPIPFILTERKEY      <*>[def  ] RANDLIB_EXTRA_CPU_LOAD_ROUNDS <0>[def  ] RANDLIB_INCLUDE_SENSITIVE_DATA <FALSE>[def  ] RANDLIB_LOGGING      <FALSE>[def  ] RANDOMDELAY          <10>[def  ] RANDOMFEED           <64>[def  ] REVERSESSL           <0>[def  ] RFC4217COMPATIBILTY  <FALSE>[def  ] ROLLOVERCHECKINTERVAL <1000>[def  ] ROUTINGMODE          <S>[par  ] SERVCERT             <$devssl.OSMCERTS.SERVCERX>[par  ] SERVKEY              <$devSSL.osmcerts.servkey>[par  ] SERVKEYPASS          <??11??>[def  ] SLOWDOWN             <0>[par  ] SOCKETDELETEDELAY    <FALSE>[def  ] SOCKETRCVBUF         <16384>[def  ] SOCKETSNDBUF         <16384>[def  ] SOLSOCKETBUFSIZE     <16384>[def  ] SRAND                <>[def  ] SSLBUF               <16384>[def  ] SSLMODE              <AUTO>[def  ] SSLVERIFYPURPOSE     <FALSE>[par  ] STDERR               <\NPNSX01.$AMIP.#CIPIO.T636>[par  ] STDIN                <\NPNSX01.$AMIP.#CIPIO.T636>[par  ] STDOUT               <\NPNSX01.$AMIP.#CIPIO.T636>[def  ] SUBNET               <$ZTC0>[def  ] SWAPCOMSECURITY      <FALSE>[def  ] SYSLOGBURSTSUPPRESSION <FALSE>[def  ] SYSLOGRETRY          <30>[def  ] SYSLOGSEVERITYMAP    <0:0,2:1-4,3:5,4:6-10,5:11-30,6:31-50,7:51-9999>[def  ] TCPIPHOSTFILE        <*>[def  ] TCPIPNODEFILE        <*>[def  ] TCPIPPROCESSDEFINEOVERSUBNETS <TRUE>[def  ] TCPIPRESOLVERNAME    <*>[def  ] TCPNODELAY           <FALSE>[def  ] TCPRCVBUF            <16384>[def  ] TCPSNDBUF            <16384>
+$ASHTP|13Apr21 06:41:37.99|30|ProcessInfo --START------------------- CPU ------------------Total CPU Usage: 0.20 s-------------- MAIN STACK --------------Origin of Main Stack:                   1879048192Current Main Stack Size:                262144 bytes ( 256 KiB )Maximum available Main Stack Size:      10485760 bytes ( 10 MiB )Main Stack Usage:                       2.5%----------- PRIVILEGED STACK -----------Origin of Privileged Stack:             1845395456Current Privileged Stack Size:          131072 bytes ( 128 KiB )Maximum available Privileged Stack:     950272 bytes ( 928 KiB )Privileged Stack Usage 13.8%----------------- HEAP -----------------Start of Native Heap Area:              141451264Current Native Heap Area Size:          499712 bytes ( 488 KiB )Current actual Native Heap usage:       395840 bytes ( 386.563 KiB )Maximum used Heap Size:                 499712 bytes ( 488 KiB )Maximum theoretical Native Heap Size:   1603379200 bytes ( 1.49326 GiB )Maximum actual Native Heap Size limit:  367001600 bytes ( 350 MiB )Native Heap Usage:                      0.108% (theoretical: 0.0247%)-- Heap Details --RTL_Heap_min_block         (= 0): 8RTL_Heap_erase_on_free     (= 1): 0RTL_Heap_erase_on_get      (= 2): 0RTL_Heap_segment_threshold (= 3): 33554432RTL_Heap_segments_max      (= 4): 0RTL_Heap_space_size        (=10): 491504RTL_Heap_space_active      (=11): 395840RTL_Heap_free_blocks       (=12): 2RTL_Heap_free_space        (=13): 95776RTL_Heap_segments          (=14): 0RTL_Heap_segment_space     (=15): 0---------------- MEMORY ----------------Current Memory Pages: 581
+$ASHTP|13Apr21 06:41:37.99|30|ProcessInfo --END--
+$ASHTP|13Apr21 06:41:38.00|30|loading Server Certificate from file '$devssl.OSMCERTS.SERVCERX'
+$ASHTP|13Apr21 06:41:38.01|30|File '$devssl.OSMCERTS.SERVCERX' determined to beDER encoded, content not checked
+$ASHTP|13Apr21 06:41:38.02|30|File '$devssl.OSMCERTS.SERVCERX' determined to beDER encoded, content not checked
+$ASHTP|13Apr21 06:41:38.02|30|File '$devssl.OSMCERTS.SERVCERX' determined to beDER encoded, content not checked
+$ASHTP|13Apr21 06:41:38.03|30|File '$devSSL.osmcerts.cacerx' determined to be DER encoded, content unknown
+$ASHTP|13Apr21 06:41:38.03|30|File '$devssl.OSMCERTS.SERVCERX' determined to beDER encoded, content unknown
+$ASHTP|13Apr21 06:41:38.04|30|CACERTS order checked ok $devSSL.osmcerts.cacerx
+$ASHTP|13Apr21 06:41:38.04|20|adding CA Certificate Chain Level 1/1: '$devSSL.osmcerts.cacerx'
+$ASHTP|13Apr21 06:41:38.04|30|loading next Certificate Chain file from file '$devSSL.osmcerts.cacerx'
+$ASHTP|13Apr21 06:41:38.05|30|File '$devSSL.osmcerts.cacerx' determined to be DER encoded, content not checked
+$ASHTP|13Apr21 06:41:38.05|30|File '$devSSL.osmcerts.cacerx' determined to be DER encoded, content not checked
+$ASHTP|13Apr21 06:41:38.06|20|md5 fingerprint of highest server certificate is <EB298DB80AA77514CA3578E2854591AF>
+$ASHTP|13Apr21 06:41:38.06|20|sha1 fingerprint of highest server certificate is<F560D105A6D1C7F6805E03546A9719012397B2A9>
+$ASHTP|13Apr21 06:41:38.06|20|sha256 fingerprint of highest server certificate is <8B8653C2B1B469ABFB6223E40C03C6A43C9D3463F67F6B6C926FC01050622C2F>
+$ASHTP|13Apr21 06:41:38.07|20|sha384 fingerprint of highest server certificate is <F61CAF287CE25D396AA9E29253C537DCF765B34128F7775440C5B483FB6AF7787C212E0E61FD9CEA55F4217517AEF938>
+$ASHTP|13Apr21 06:41:38.07|20|sha512 fingerprint of highest server certificate is <B1BE00B296AE0AB67984DA2FFBC8EF5B1DE035A36D833B644ACEECF575A007C9B8A0D91030D51A779170150F91DF04DF334700627986706A00D0799FBA85A439>
+$ASHTP|13Apr21 06:41:38.07|20|ripemd160 fingerprint of highest server certificate is <3FDB1A457A39C9423372BDB021CDDCC6C457943B>
+$ASHTP|13Apr21 06:41:38.08|20|whirlpool fingerprint of highest server certificate is <69FDB28DC613570666B0A8F29B4ADAC549D7FC0935361B852DBB9677FDEA685D5A044578F7C26F193A6191F1FE5EA7CFB75DD99BC9A763B1FD68E3F3BEB359E3>
+$ASHTP|13Apr21 06:41:38.09|30|loading private key from file '$devSSL.osmcerts.servkey'
+$ASHTP|13Apr21 06:41:38.09|30|File '$devSSL.osmcerts.servkey' determined to be DER encoded, content not checked
+$ASHTP|13Apr21 06:41:38.10|20|SSL buffer size is:      SSLBUF=       16384
+$ASHTP|13Apr21 06:41:38.10|20|Socket buffer sizes are: SOCKETSNDBUF= 16384, SOCKETRCVBUF= 16384
+$ASHTP|13Apr21 06:41:38.11|20|TCP buffer sizes are:    TCPSNDBUF=    16384, TCPRCVBUF=    16384
+$ASHTP|13Apr21 06:41:38.11|20|Starting HTTPS server on port 3381, default dir '$hh.testdata'
+$ASHTP|13Apr21 06:41:38.12|30|-- HTTPS setup completed, starting to listen... --
+$ASHTP|13Apr21 06:41:50.87|10|using HTTP ZIP archive '$hh.testdata.httpzip'
+$ASHTP|13Apr21 06:41:51.35| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:41:51.35|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:41:51.36|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:41:51.36|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:41:51.37|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:41:51.54| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:41:51.54|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:41:51.54|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:41:51.55|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:41:51.55|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:41:52.48|30|H|returning error 404
+$ASHTP|13Apr21 06:42:55.45|30|H|returning error 404
+$ASHTP|13Apr21 06:44:12.70| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:44:12.71|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:44:12.71|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:44:12.72|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:44:12.72|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:44:24.56| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 06:44:24.56|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 06:44:24.57|30|error data: SSL alert number 46
+$ASHTP|13Apr21 06:44:24.57|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+$ASHTP|13Apr21 06:44:24.58|30|data in CSecureSocket::OnReceivePlain - n=    7,adr=0x878df90 (dumpFormat=3)
+$ASHTP|13Apr21 06:44:34.71|30|H|returning error 404
+$ASHTP|13Apr21 07:03:17.60| 0|*** Warning: SSL warning 'error during SSLRead'
+$ASHTP|13Apr21 07:03:17.60|30|error code: 0x14094416 in D:\Gitlab\Runner\builds\8e857edc\0\SSL\OpenSSL_NSK\ssl/record/rec_layer_s3.c in line 1536.
+$ASHTP|13Apr21 07:03:17.60|30|error data: SSL alert number 46
+$ASHTP|13Apr21 07:03:17.61|30|error text: error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
