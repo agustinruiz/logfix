@@ -1,5 +1,6 @@
 from analysis_by_rid import by_record_identifier;
 from analysis_by_rid_llen import by_recordID_and_line_length;
+from analysis_manual import manual_selection;
 
 def analysis_menu_selection(analysis_options):
     user_input = '';
@@ -21,6 +22,7 @@ def analysis(content):
     analysis_options = {
         '1': ('Only by record identifier', by_record_identifier),
         '2': ('By record identifier and line length', by_recordID_and_line_length),
+        '3': ('Manual analysis', manual_selection),
     }
 
     analysis_choice = analysis_menu_selection(analysis_options);
