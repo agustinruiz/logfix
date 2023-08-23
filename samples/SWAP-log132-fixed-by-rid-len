@@ -1,0 +1,531 @@
+$ASPXY|22Mar20 13:41:17.92|70|Neither AUDITFILE nor AUDITCONSOLE is set, will mute AUDITLEVEL to 0
+$ASPXY|22Mar20 13:41:18.07|30|----------------------------------------------------------------
+$ASPXY|22Mar20 13:41:18.07| 5|comForte SWAP version T9999L02_03Jan2019_comForte_SSLD_21_7_1_IPv6_
+$ASPXY|22Mar20 13:41:18.09|10|using OpenSSL 1.1.0j  20 Nov 2018 - see http://www.openssl.org
+$ASPXY|22Mar20 13:41:18.09|10|config file: 'confpem', config file2: '*', is STN daemon=0
+$ASPXY|22Mar20 13:41:18.09|50|         library T9999L02_22NOV2018_comForte_CPPBASE_2_3_3
+$ASPXY|22Mar20 13:41:18.10|50|         library T9999L02_16OCT2018_comForte_CPPHLPR_1_4_5
+$ASPXY|22Mar20 13:41:18.10|50|         library T9999L02_16OCT2018_comForte_CPPHLPR_1_5_7
+$ASPXY|22Mar20 13:41:18.11|10|runtime args: 'PROXYS;CONFIG CONFPEM'
+$ASPXY|22Mar20 13:41:18.11|20|--------- start settings for Logging  -----------
+$ASPXY|22Mar20 13:41:18.11|20| process name is $ASPXY
+$ASPXY|22Mar20 13:41:18.12|20| trace file is 'LOGFILE' ('*' means none)
+$ASPXY|22Mar20 13:41:18.12|20| max file length 20480000 bytes
+$ASPXY|22Mar20 13:41:18.13|20| console is '%' ('*' means none, '%' means home terminal)
+$ASPXY|22Mar20 13:41:18.13|20| global maximum level is 70, maximum dump length is 112
+$ASPXY|22Mar20 13:41:18.13|20|--------- end settings for Logging -------------
+$ASPXY|22Mar20 13:41:18.14|10|log level for console is 50
+$ASPXY|22Mar20 13:41:18.14|10|log level for logfile is 70
+$ASPXY|22Mar20 13:41:18.15|10|log level for EMS     is 10
+$ASPXY|22Mar20 13:41:18.15|10|global log max level     is 70
+$ASPXY|22Mar20 13:41:18.15|10|global trace max level     is 100
+$ASPXY|22Mar20 13:41:18.16| 0|*** Warning: tracing is activated with global trace max level 100, serious performance degradation is to be expected
+$ASPXY|22Mar20 13:41:18.16|20|Object filename is  '\NPNSX01.$AS.SWAP.SWAP2171'
+$ASPXY|22Mar20 13:41:18.17|20|Object subvolume is '\NPNSX01.$AS.SWAP', priority is 157
+$ASPXY|22Mar20 13:41:18.18|50|license file has standard format
+$ASPXY|22Mar20 13:41:18.18|20|Your system number is <078480>, your system type is NS3 X1
+$ASPXY|22Mar20 13:41:18.19|50|Customer name is 'comForte Pty Ltd'
+$ASPXY|22Mar20 13:41:18.19|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 53139
+$ASPXY|22Mar20 13:41:18.19|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 12151
+$ASPXY|22Mar20 13:41:18.20|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 59479
+$ASPXY|22Mar20 13:41:18.20|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 75536
+$ASPXY|22Mar20 13:41:18.21|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 78480
+$ASPXY|22Mar20 13:41:18.21|50|Valid system numbers are <53139 12151 59479 75536 78480 >
+$ASPXY|22Mar20 13:41:18.21|50|2 CPUs found on system
+$ASPXY|22Mar20 13:41:18.22|50|CPU 0 runs with 2 enabled cores
+$ASPXY|22Mar20 13:41:18.22|50|license file '\NPNSX01.$AS.SWAP.LICENSE' is valid
+$ASPXY|22Mar20 13:41:18.23|50|License expiration is never
+$ASPXY|22Mar20 13:41:18.23|10|license file check OK
+$ASPXY|22Mar20 13:41:18.23|30|starting collecting of random data
+$ASPXY|22Mar20 13:41:21.56|10|collection of 64 bytes random data finished
+$ASPXY|22Mar20 13:41:21.66|10|AES-NI is disabled
+$ASPXY|22Mar20 13:41:21.66|10|GCM-NI is disabled
+$ASPXY|22Mar20 13:41:21.67|50|IPMODE NOT set, defaulting to IPV4
+$ASPXY|22Mar20 13:41:21.68|20|DEFINE =CIP^COMPAT^ERROR was set to <\NPNSX01.$AS.SWAP.SUPPRESS>
+$ASPXY|22Mar20 13:41:21.69|70|INTERFACE name not given, defaulting to 0.0.0.0
+$ASPXY|22Mar20 13:41:21.69|70|TARGETINTERFACE name not given, defaulting to 0.0.0.0
+$ASPXY|22Mar20 13:41:21.70|20|effective SUBNET is $ZTC0
+$ASPXY|22Mar20 13:41:21.70|20|effective TARGETSUBNET is $ZTC0
+$ASPXY|22Mar20 13:41:21.71|70|Using targetsubnet value of $ZTC0 as DNS resolver TCP/IP process name.
+$ASPXY|22Mar20 13:41:21.71|50|Configuring DNS resolver TCP/IP process to be $ZTC0
+$ASPXY|22Mar20 13:41:21.71|50|ResolverByDNS: Starting to use default DNS resolver process $ZTC0
+$ASPXY|22Mar20 13:41:21.72|30|dumping configuration:
+[def  ] ALLOWCERTERRORS      <none>
+[def  ] ALLOWIP              <*>
+[def  ] AUDITASCIIDUMPLENIN  <-1>
+[def  ] AUDITASCIIDUMPLENOUT <-1>
+[def  ] AUDITASCIIONLY       <TRUE>
+[def  ] AUDITCONSOLE         <*>
+[def  ] AUDITDELIMITER       <,>
+[def  ] AUDITFILE            <*>
+[def  ] AUDITFILELAYOUT      <CSV>
+[def  ] AUDITFILERETENTION   <10>
+[def  ] AUDITFORMAT          <93>
+[def  ] AUDITLEVEL           <50>
+[def  ] AUDITMAXFILELENGTH   <20000>
+[def  ] BURSTSUPPRESSION     <FALSE>
+[def  ] BURSTSUPPRESSIONMAXLOGLEVEL <40>
+[file ] CACERTS              <$AS.CERTPEM.CACERT>
+[def  ] CACHEBURSTSUPPRESSION <FALSE>
+[def  ] CERTSTORE            <*>
+[def  ] CIPCOMPATIBILITYDEFINE <TRUE>
+[def  ] CIPHERSUITES         <default>
+[def  ] CLIENTAUTH           <*>
+[run  ] CONFIG               <confpem>
+[def  ] CONFIG2              <*>
+[def  ] CONNECTIONINFOFORMAT <EXTENDED>
+[def  ] CONNECTIONINFOFORMATDETAILED <EXTENDED>
+[def  ] CONSOLEBURSTSUPPRESSION <FALSE>
+[def  ] CONTENTFILTER        <*>
+[par  ] DEFAULTS             <\NPNSX01.$AS.SWAP>
+[def  ] DENYIP               <>
+[def  ] DNSAUTOSETRESOLVERPROCESS <TRUE>
+[def  ] DNSRESOLVERTCPIPPROCESSNAME <>
+[def  ] DONOTWARNONERROR     <>
+[def  ] DYNAMICROUTINGENABLEIPV6 <FALSE>
+[def  ] ELLIPTICCURVENAME    <*>
+[def  ] EMSBURSTSUPPRESSION  <FALSE>
+[def  ] FILEBURSTSUPPRESSION <FALSE>
+[def  ] FTPSALLOWPLAINDATACHANNEL <FALSE>
+[def  ] HARDWAREACCELERATE   <NONE>
+[def  ] HASHALGORITHMS       <whirlpool>
+[def  ] HEAPSIZELIMIT        <367001600>
+[def  ] INTERFACE            <*>
+[def  ] IOLOG                <0>
+[def  ] IPMODE               <IPV4>
+[def  ] LICENSE              <\NPNSX01.$AS.SWAP.LICENSE>
+[def  ] LICENSECHECKVERBOSE  <0>
+[def  ] LOGCACHEDUMPONABORT  <TRUE>
+[def  ] LOGCACHESIZE         <2000>
+[par  ] LOGCONSOLE           <%>
+[def  ] LOGEMS               <*>
+[par  ] LOGFILE              <LOGFILE>
+[def  ] LOGFILERETENTION     <10>
+[def  ] LOGFORMATCONSOLE     <93>
+[def  ] LOGFORMATEMS         <16>
+[def  ] LOGFORMATFILE        <93>
+[def  ] LOGLEVELCACHE        <0>
+[def  ] LOGLEVELCONSOLE      <50>
+[def  ] LOGLEVELEMS          <10>
+[par  ] LOGLEVELFILE         <70>
+[def  ] LOGMAXDUMP           <100>
+[def  ] LOGMAXFILELENGTH     <20000>
+[def  ] LOGMEMORY            <0>
+[def  ] LOGMEMORYDETAILED    <0>
+[def  ] MAXSESSIONS          <0>
+[def  ] MAXVERSION           <TLSv1.2>
+[def  ] MINVERSION           <TLSv1.2>
+[def  ] OPENSSLABENDONERROR  <FALSE>
+[par  ] PORT                 <14023>
+[def  ] PTCPIPFILTERKEY      <*>
+[def  ] RANDLIB_EXTRA_CPU_LOAD_ROUNDS <0>
+[def  ] RANDLIB_INCLUDE_SENSITIVE_DATA <FALSE>
+[def  ] RANDLIB_LOGGING      <FALSE>
+[par  ] RANDOMDELAY          <0>
+[def  ] RANDOMFEED           <64>
+[def  ] REVERSESSL           <0>
+[def  ] ROLLOVERCHECKINTERVAL <1000>
+[def  ] ROUTINGMODE          <S>
+[file ] SERVCERT             <$AS.CERTPEM.SERVCERT>
+[file ] SERVKEY              <$AS.CERTPEM.SERVKEY>
+[file ] SERVKEYPASS          <??11??>
+[def  ] SLOWDOWN             <0>
+[def  ] SOCKETRCVBUF         <16384>
+[def  ] SOCKETSNDBUF         <16384>
+[def  ] SOLSOCKETBUFSIZE     <16384>
+[def  ] SRAND                <>
+[def  ] SSLBUF               <16384>
+[def  ] SSLVERIFYPURPOSE     <FALSE>
+[par  ] STDERR               <\NPNSX01.$AMIP.#CIPIO.T869>
+[par  ] STDIN                <\NPNSX01.$AMIP.#CIPIO.T869>
+[par  ] STDOUT               <\NPNSX01.$AMIP.#CIPIO.T869>
+[def  ] SUBNET               <$ZTC0>
+[def  ] SWAPCOMSECURITY      <FALSE>
+[def  ] SYSLOGBURSTSUPPRESSION <FALSE>
+[def  ] SYSLOGRETRY          <30>
+[def  ] TARGETHOST           <127.0.0.1>
+[def  ] TARGETINTERFACE      <*>
+[par  ] TARGETPORT           <23>
+[def  ] TARGETSUBNET         <$ZTC0>
+[def  ] TCPIPHOSTFILE        <*>
+[def  ] TCPIPNODEFILE        <*>
+[def  ] TCPIPPROCESSDEFINEOVERSUBNETS <TRUE>
+[def  ] TCPIPRESOLVERNAME    <*>
+[def  ] TCPNODELAY           <FALSE>
+[def  ] TCPRCVBUF            <16384>
+[def  ] TCPSNDBUF            <16384>
+$ASPXY|22Mar20 13:41:21.73|50|TCP_NODELAY is off
+$ASPXY|22Mar20 13:41:21.74|30|ProcessInfo --START--
+----------------- CPU ------------------
+Total CPU Usage: 0.22 s
+-------------- MAIN STACK --------------
+Origin of Main Stack:                   1879048192
+Current Main Stack Size:                262144 bytes ( 256 KiB )
+Maximum available Main Stack Size:      10485760 bytes ( 10 MiB )
+Main Stack Usage:                       2.5%
+----------- PRIVILEGED STACK -----------
+Origin of Privileged Stack:             1845395456
+Current Privileged Stack Size:          131072 bytes ( 128 KiB )
+Maximum available Privileged Stack:     950272 bytes ( 928 KiB )
+Privileged Stack Usage 13.8%
+----------------- HEAP -----------------
+Start of Native Heap Area:              141201408
+Current Native Heap Area Size:          487424 bytes ( 476 KiB )
+Current actual Native Heap usage:       366512 bytes ( 357.922 KiB )
+Maximum used Heap Size:                 487424 bytes ( 476 KiB )
+Maximum theoretical Native Heap Size:   1603629056 bytes ( 1.4935 GiB )
+Maximum actual Native Heap Size limit:  367001600 bytes ( 350 MiB )
+Native Heap Usage:                      0.0999% (theoretical: 0.0229%)
+-- Heap Details --
+RTL_Heap_min_block         (= 0): 8
+RTL_Heap_erase_on_free     (= 1): 0
+RTL_Heap_erase_on_get      (= 2): 0
+RTL_Heap_segment_threshold (= 3): 33554432
+RTL_Heap_segments_max      (= 4): 0
+RTL_Heap_space_size        (=10): 479216
+RTL_Heap_space_active      (=11): 366512
+RTL_Heap_free_blocks       (=12): 1
+RTL_Heap_free_space        (=13): 112720
+RTL_Heap_segments          (=14): 0
+RTL_Heap_segment_space     (=15): 0
+---------------- MEMORY ----------------
+Current Memory Pages: 539
+$ASPXY|22Mar20 13:41:21.76|30|ProcessInfo --END--
+$ASPXY|22Mar20 13:41:21.77|70|Found 0 IPv6 scope ID mappings with search prefix IPV6SCOPEMAP-[0-n]
+$ASPXY|22Mar20 13:41:21.81|50|minv=33, maxv=33, meth=TLSv1_2_server_method(), ssl_options=0x96010854
+$ASPXY|22Mar20 13:41:21.85|50|Using default openssl HIGH security ciphers: ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-DSS-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES256-CCM8:ECDHE-ECDSA-AES256-CCM:DHE-RSA-AES256-CCM8:DHE-RSA-AES256-CCM:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:DHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-CCM8:ECDHE-ECDSA-AES128-CCM:DHE-RSA-AES128-CCM8:DHE-RSA-AES128-CCM:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA256:ECDHE-ECDSA-CAMELLIA256-SHA384:ECDHE-RSA-CAMELLIA256-SHA384:DHE-RSA-CAMELLIA256-SHA256:DHE-DSS-CAMELLIA256-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA256:DHE-DSS-AES128-SHA256:ECDHE-ECDSA-CAMELLIA128-SHA256:ECDHE-RSA-CAMELLIA128-SHA256:DHE-RSA-CAMELLIA128-SHA256:DHE-DSS-CAMELLIA128-SHA256:ECDHE-ECDSA-AES256-SHA:ECDHE-RSA-AES256-SHA:DHE-RSA-AES256-SHA:DHE-DSS-AES256-SHA:DHE-RSA-CAMELLIA256-SHA:DHE-DSS-CAMELLIA256-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA:DHE-RSA-CAMELLIA128-SHA:DHE-DSS-CAMELLIA128-SHA:AES256-GCM-SHA384:AES256-CCM8:AES256-CCM:AES128-GCM-SHA256:AES128-CCM8:AES128-CCM:AES256-SHA256:CAMELLIA256-SHA256:AES128-SHA256:CAMELLIA128-SHA256:AES256-SHA:CAMELLIA256-SHA:AES128-SHA:CAMELLIA128-SHA
+$ASPXY|22Mar20 13:41:21.85|30|loading Server Certificate from file '$AS.CERTPEM.SERVCERT'
+$ASPXY|22Mar20 13:41:21.86|30|File '$AS.CERTPEM.SERVCERT' determined to be PEM encoded, content not checked
+$ASPXY|22Mar20 13:41:21.90|30|File '$AS.CERTPEM.SERVCERT' determined to be PEM encoded, content not checked
+$ASPXY|22Mar20 13:41:21.92|30|File '$AS.CERTPEM.SERVCERT' determined to be PEM encoded, content not checked
+$ASPXY|22Mar20 13:41:21.95|30|File '$AS.CERTPEM.CACERT' determined to be PEM encoded, content certificate
+$ASPXY|22Mar20 13:41:21.96|30|File '$AS.CERTPEM.SERVCERT' determined to be PEM encoded, content certificate
+$ASPXY|22Mar20 13:41:21.98|60|parent certificate of $AS.CERTPEM.SERVCERT is $AS.CERTPEM.CACERT
+$ASPXY|22Mar20 13:41:21.98|60|certificate $AS.CERTPEM.CACERT is self-signed, issuer /C=DE/ST=Hessen/L=Wiesbaden/O=comForte/OU=Development/CN=comForte Test CA - DO NOT USE OR TRUST
+$ASPXY|22Mar20 13:41:21.98|30|CACERTS order checked ok $AS.CERTPEM.CACERT
+$ASPXY|22Mar20 13:41:21.99|20|adding CA Certificate Chain Level 1/1: '$AS.CERTPEM.CACERT'
+$ASPXY|22Mar20 13:41:21.99|30|loading next Certificate Chain file from file '$AS.CERTPEM.CACERT'
+$ASPXY|22Mar20 13:41:22.00|30|File '$AS.CERTPEM.CACERT' determined to be PEM encoded, content not checked
+$ASPXY|22Mar20 13:41:22.01|30|File '$AS.CERTPEM.CACERT' determined to be PEM encoded, content not checked
+$ASPXY|22Mar20 13:41:22.02|20|md5 fingerprint of highest server certificate is <2E35501B3A531073D764742D469D497F>
+$ASPXY|22Mar20 13:41:22.03|20|sha1 fingerprint of highest server certificate is <50FF937FD8A9E6FF3C26528ECB1191D230D3E3EB>
+$ASPXY|22Mar20 13:41:22.04|20|sha256 fingerprint of highest server certificate is <D04AA10805C9E7E35D48A6EA0BF9DC82519D2BDF9FB9FDE28BBDFD2B1318B337>
+$ASPXY|22Mar20 13:41:22.05|20|sha384 fingerprint of highest server certificate is <E57CE25A8842959AE0998BDAFF18F07DC5C15BC018B9B77A4E8EB7E34CE7C06253C37EE1A22A7C8CB6BD8BA05025C816>
+$ASPXY|22Mar20 13:41:22.05|20|sha512 fingerprint of highest server certificate is <60E20E9DEB47F688FE500A7FBB7E3020A52D2DD00E1D475634126B00787142D0B34B0A2F0ADA6AB18293EFD74D161EAB7D435EC1AC9BF101DB5BDA60FDDFB971>
+$ASPXY|22Mar20 13:41:22.06|20|ripemd160 fingerprint of highest server certificate is <771F07C321DE727CF325DBC62E769473788B2598>
+$ASPXY|22Mar20 13:41:22.07|20|whirlpool fingerprint of highest server certificate is <65F3B644302A8CEF0B8538891DD220416D1DEAFE4941DFC144869C69EB67943FB9D358B110E629FB6588052FC379D7C3169650987D9FE2BCB77235A5E6D77E03>
+$ASPXY|22Mar20 13:41:22.07|30|loading private key from file '$AS.CERTPEM.SERVKEY'
+$ASPXY|22Mar20 13:41:22.08|30|File '$AS.CERTPEM.SERVKEY' determined to be DER encoded, content not checked
+$ASPXY|22Mar20 13:41:22.12|70|SOCKSUSER=, SOCKSHOST=*
+$ASPXY|22Mar20 13:41:22.12|70|socks user configured=0, socks port configured=0, socks host configured=0
+$ASPXY|22Mar20 13:41:22.13|60|INITIALIZEEDIT returned 0
+$ASPXY|22Mar20 13:41:22.13|20|SSL buffer size is:      SSLBUF=       16384
+$ASPXY|22Mar20 13:41:22.14|20|Socket buffer sizes are: SOCKETSNDBUF= 16384, SOCKETRCVBUF= 16384
+$ASPXY|22Mar20 13:41:22.14|20|TCP buffer sizes are:    TCPSNDBUF=    16384, TCPRCVBUF=    16384
+$ASPXY|22Mar20 13:41:22.15|70|ResolverByDNS-3: configured TCP/IP process for DNS resolving to $ZTC0.
+$ASPXY|22Mar20 13:41:22.15|70|ResolverByDNS-3: configured TCP/IP process for DNS resolving to $ZTC0.
+$ASPXY|22Mar20 13:41:22.16|70|ResolverByDNS-4: configured TCP/IP process for DNS resolving to $ZTC0.
+$ASPXY|22Mar20 13:41:22.16|70|ResolverByDNS-4: configured TCP/IP process for DNS resolving to $ZTC0.
+$ASPXY|22Mar20 13:41:22.17|50|Initializing proxy 1 of 1 (mode=PROXYS)
+$ASPXY|22Mar20 13:41:22.18|20|Starting secure-to-plain proxy, listening on 0.0.0.0:14023 (subnet $ZTC0), target host 127.0.0.1:23 over interface 0.0.0.0 on subnet $ZTC0
+$ASPXY|22Mar20 13:41:22.24|50|IP filter for ALLOWIP initialized, filter currently not active
+$ASPXY|22Mar20 13:41:22.25|70|Rule "" given, clearing rules and deactivating IPFilter
+$ASPXY|22Mar20 13:41:22.25|50|IP filter for DENYIP initialized, filter currently not active
+$ASPXY|22Mar20 13:41:22.29|30|-- PROXYS setup completed, starting to listen... --
+$ASPXY|22Mar20 13:41:22.33|60|N|IP process was set to $ZTC0
+$ASPXY|22Mar20 13:41:22.35|70|N|Created TCP socket on stack $ZTC0 for future use for 0.0.0.0:14023
+$ASPXY|22Mar20 13:41:22.38|60|Listen: trying to bind to address: - n=   16,adr=0x8705a62 (dumpFormat=3)
+$ASPXY|22Mar20 13:41:22.38|70| 0x0000 00 02 36 c7 00 00 00 00  00 00 00 00 00 00 00 00 ..6.............
+$ASPXY|22Mar20 13:41:22.39|60|Listen TCP: bind_nw local value:0.0.0.0:14023, socket 8
+$ASPXY|22Mar20 13:41:22.43|70|Performed action CombinedAction(CreateSocket,ListenSocketAction) successfully
+$ASPXY|22Mar20 13:42:08.64|70|Neither AUDITFILE nor AUDITCONSOLE is set, will mute AUDITLEVEL to 0
+$ASPXY|22Mar20 13:42:08.75|30|----------------------------------------------------------------
+$ASPXY|22Mar20 13:42:08.75| 5|comForte SWAP version T9999L02_03Jan2019_comForte_SSLD_21_7_1_IPv6_
+$ASPXY|22Mar20 13:42:08.76|10|using OpenSSL 1.1.0j  20 Nov 2018 - see http://www.openssl.org
+$ASPXY|22Mar20 13:42:08.76|10|config file: 'confpem', config file2: '*', is STN daemon=0
+$ASPXY|22Mar20 13:42:08.76|50|         library T9999L02_22NOV2018_comForte_CPPBASE_2_3_3
+$ASPXY|22Mar20 13:42:08.77|50|         library T9999L02_16OCT2018_comForte_CPPHLPR_1_4_5
+$ASPXY|22Mar20 13:42:08.78|50|         library T9999L02_16OCT2018_comForte_CPPHLPR_1_5_7
+$ASPXY|22Mar20 13:42:08.78|10|runtime args: 'PROXYS;CONFIG CONFPEM'
+$ASPXY|22Mar20 13:42:08.78|20|--------- start settings for Logging  -----------
+$ASPXY|22Mar20 13:42:08.79|20| process name is $ASPXY
+$ASPXY|22Mar20 13:42:08.79|20| trace file is 'LOGFILE' ('*' means none)
+$ASPXY|22Mar20 13:42:08.80|20| max file length 20480000 bytes
+$ASPXY|22Mar20 13:42:08.80|20| console is '%' ('*' means none, '%' means home terminal)
+$ASPXY|22Mar20 13:42:08.80|20| global maximum level is 70, maximum dump length is 112
+$ASPXY|22Mar20 13:42:08.81|20|--------- end settings for Logging -------------
+$ASPXY|22Mar20 13:42:08.81|10|log level for console is 50
+$ASPXY|22Mar20 13:42:08.82|10|log level for logfile is 70
+$ASPXY|22Mar20 13:42:08.82|10|log level for EMS     is 10
+$ASPXY|22Mar20 13:42:08.82|10|global log max level     is 70
+$ASPXY|22Mar20 13:42:08.83|10|global trace max level     is 100
+$ASPXY|22Mar20 13:42:08.83| 0|*** Warning: tracing is activated with global trace max level 100, serious performance degradation is to be expected
+$ASPXY|22Mar20 13:42:08.84|20|Object filename is  '\NPNSX01.$AS.SWAP.SWAP2171'
+$ASPXY|22Mar20 13:42:08.84|20|Object subvolume is '\NPNSX01.$AS.SWAP', priority is 157
+$ASPXY|22Mar20 13:42:08.85|50|license file has standard format
+$ASPXY|22Mar20 13:42:08.85|20|Your system number is <078480>, your system type is NS3 X1
+$ASPXY|22Mar20 13:42:08.86|50|Customer name is 'comForte Pty Ltd'
+$ASPXY|22Mar20 13:42:08.86|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 53139
+$ASPXY|22Mar20 13:42:08.87|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 12151
+$ASPXY|22Mar20 13:42:08.87|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 59479
+$ASPXY|22Mar20 13:42:08.88|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 75536
+$ASPXY|22Mar20 13:42:08.88|20| 2 CPUs ( 2 IPUs) are licensed for sysnum 78480
+$ASPXY|22Mar20 13:42:08.88|50|Valid system numbers are <53139 12151 59479 75536 78480 >
+$ASPXY|22Mar20 13:42:08.89|50|2 CPUs found on system
+$ASPXY|22Mar20 13:42:08.89|50|CPU 0 runs with 2 enabled cores
+$ASPXY|22Mar20 13:42:08.89|50|license file '\NPNSX01.$AS.SWAP.LICENSE' is valid
+$ASPXY|22Mar20 13:42:08.90|50|License expiration is never
+$ASPXY|22Mar20 13:42:08.90|10|license file check OK
+$ASPXY|22Mar20 13:42:08.91|30|starting collecting of random data
+$ASPXY|22Mar20 13:42:12.23|10|collection of 64 bytes random data finished
+$ASPXY|22Mar20 13:42:12.26|10|AES-NI is disabled
+$ASPXY|22Mar20 13:42:12.27|10|GCM-NI is disabled
+$ASPXY|22Mar20 13:42:12.27|50|IPMODE NOT set, defaulting to IPV4
+$ASPXY|22Mar20 13:42:12.28|20|DEFINE =CIP^COMPAT^ERROR was set to <\NPNSX01.$AS.SWAP.SUPPRESS>
+$ASPXY|22Mar20 13:42:12.28|70|INTERFACE name not given, defaulting to 0.0.0.0
+$ASPXY|22Mar20 13:42:12.28|70|TARGETINTERFACE name not given, defaulting to 0.0.0.0
+$ASPXY|22Mar20 13:42:12.29|20|effective SUBNET is $ZTC0
+$ASPXY|22Mar20 13:42:12.29|20|effective TARGETSUBNET is $ZTC0
+$ASPXY|22Mar20 13:42:12.30|70|Using targetsubnet value of $ZTC0 as DNS resolver TCP/IP process name.
+$ASPXY|22Mar20 13:42:12.30|50|Configuring DNS resolver TCP/IP process to be $ZTC0
+$ASPXY|22Mar20 13:42:12.30|50|ResolverByDNS: Starting to use default DNS resolver process $ZTC0
+$ASPXY|22Mar20 13:42:12.31|30|dumping configuration:
+[def  ] ALLOWCERTERRORS      <none>
+[def  ] ALLOWIP              <*>
+[def  ] AUDITASCIIDUMPLENIN  <-1>
+[def  ] AUDITASCIIDUMPLENOUT <-1>
+[def  ] AUDITASCIIONLY       <TRUE>
+[def  ] AUDITCONSOLE         <*>
+[def  ] AUDITDELIMITER       <,>
+[def  ] AUDITFILE            <*>
+[def  ] AUDITFILELAYOUT      <CSV>
+[def  ] AUDITFILERETENTION   <10>
+[def  ] AUDITFORMAT          <93>
+[def  ] AUDITLEVEL           <50>
+[def  ] AUDITMAXFILELENGTH   <20000>
+[def  ] BURSTSUPPRESSION     <FALSE>
+[def  ] BURSTSUPPRESSIONMAXLOGLEVEL <40>
+[file ] CACERTS              <$AS.CERTPEM.CACERT>
+[def  ] CACHEBURSTSUPPRESSION <FALSE>
+[def  ] CERTSTORE            <*>
+[def  ] CIPCOMPATIBILITYDEFINE <TRUE>
+[def  ] CIPHERSUITES         <default>
+[def  ] CLIENTAUTH           <*>
+[run  ] CONFIG               <confpem>
+[def  ] CONFIG2              <*>
+[def  ] CONNECTIONINFOFORMAT <EXTENDED>
+[def  ] CONNECTIONINFOFORMATDETAILED <EXTENDED>
+[def  ] CONSOLEBURSTSUPPRESSION <FALSE>
+[def  ] CONTENTFILTER        <*>
+[par  ] DEFAULTS             <\NPNSX01.$AS.SWAP>
+[def  ] DENYIP               <>
+[def  ] DNSAUTOSETRESOLVERPROCESS <TRUE>
+[def  ] DNSRESOLVERTCPIPPROCESSNAME <>
+[def  ] DONOTWARNONERROR     <>
+[def  ] DYNAMICROUTINGENABLEIPV6 <FALSE>
+[def  ] ELLIPTICCURVENAME    <*>
+[def  ] EMSBURSTSUPPRESSION  <FALSE>
+[def  ] FILEBURSTSUPPRESSION <FALSE>
+[def  ] FTPSALLOWPLAINDATACHANNEL <FALSE>
+[def  ] HARDWAREACCELERATE   <NONE>
+[def  ] HASHALGORITHMS       <whirlpool>
+[def  ] HEAPSIZELIMIT        <367001600>
+[def  ] INTERFACE            <*>
+[def  ] IOLOG                <0>
+[def  ] IPMODE               <IPV4>
+[def  ] LICENSE              <\NPNSX01.$AS.SWAP.LICENSE>
+[def  ] LICENSECHECKVERBOSE  <0>
+[def  ] LOGCACHEDUMPONABORT  <TRUE>
+[def  ] LOGCACHESIZE         <2000>
+[par  ] LOGCONSOLE           <%>
+[def  ] LOGEMS               <*>
+[par  ] LOGFILE              <LOGFILE>
+[def  ] LOGFILERETENTION     <10>
+[def  ] LOGFORMATCONSOLE     <93>
+[def  ] LOGFORMATEMS         <16>
+[def  ] LOGFORMATFILE        <93>
+[def  ] LOGLEVELCACHE        <0>
+[def  ] LOGLEVELCONSOLE      <50>
+[def  ] LOGLEVELEMS          <10>
+[par  ] LOGLEVELFILE         <70>
+[def  ] LOGMAXDUMP           <100>
+[def  ] LOGMAXFILELENGTH     <20000>
+[def  ] LOGMEMORY            <0>
+[def  ] LOGMEMORYDETAILED    <0>
+[def  ] MAXSESSIONS          <0>
+[def  ] MAXVERSION           <TLSv1.2>
+[def  ] MINVERSION           <TLSv1.2>
+[def  ] OPENSSLABENDONERROR  <FALSE>
+[par  ] PORT                 <14023,14024>
+[def  ] PTCPIPFILTERKEY      <*>
+[def  ] RANDLIB_EXTRA_CPU_LOAD_ROUNDS <0>
+[def  ] RANDLIB_INCLUDE_SENSITIVE_DATA <FALSE>
+[def  ] RANDLIB_LOGGING      <FALSE>
+[par  ] RANDOMDELAY          <0>
+[def  ] RANDOMFEED           <64>
+[def  ] REVERSESSL           <0>
+[def  ] ROLLOVERCHECKINTERVAL <1000>
+[def  ] ROUTINGMODE          <S>
+[file ] SERVCERT             <$AS.CERTPEM.SERVCERT>
+[file ] SERVKEY              <$AS.CERTPEM.SERVKEY>
+[file ] SERVKEYPASS          <??11??>
+[def  ] SLOWDOWN             <0>
+[def  ] SOCKETRCVBUF         <16384>
+[def  ] SOCKETSNDBUF         <16384>
+[def  ] SOLSOCKETBUFSIZE     <16384>
+[def  ] SRAND                <>
+[def  ] SSLBUF               <16384>
+[def  ] SSLVERIFYPURPOSE     <FALSE>
+[par  ] STDERR               <\NPNSX01.$AMIP.#CIPIO.T870>
+[par  ] STDIN                <\NPNSX01.$AMIP.#CIPIO.T870>
+[par  ] STDOUT               <\NPNSX01.$AMIP.#CIPIO.T870>
+[def  ] SUBNET               <$ZTC0>
+[def  ] SWAPCOMSECURITY      <FALSE>
+[def  ] SYSLOGBURSTSUPPRESSION <FALSE>
+[def  ] SYSLOGRETRY          <30>
+[def  ] TARGETHOST           <127.0.0.1>
+[def  ] TARGETINTERFACE      <*>
+[par  ] TARGETPORT           <23,23>
+[def  ] TARGETSUBNET         <$ZTC0>
+[def  ] TCPIPHOSTFILE        <*>
+[def  ] TCPIPNODEFILE        <*>
+[def  ] TCPIPPROCESSDEFINEOVERSUBNETS <TRUE>
+[def  ] TCPIPRESOLVERNAME    <*>
+[def  ] TCPNODELAY           <FALSE>
+[def  ] TCPRCVBUF            <16384>
+[def  ] TCPSNDBUF            <16384>
+$ASPXY|22Mar20 13:42:12.32|50|TCP_NODELAY is off
+$ASPXY|22Mar20 13:42:12.33|30|ProcessInfo --START--
+----------------- CPU ------------------
+Total CPU Usage: 0.19 s
+-------------- MAIN STACK --------------
+Origin of Main Stack:                   1879048192
+Current Main Stack Size:                262144 bytes ( 256 KiB )
+Maximum available Main Stack Size:      10485760 bytes ( 10 MiB )
+Main Stack Usage:                       2.5%
+----------- PRIVILEGED STACK -----------
+Origin of Privileged Stack:             1845395456
+Current Privileged Stack Size:          131072 bytes ( 128 KiB )
+Maximum available Privileged Stack:     950272 bytes ( 928 KiB )
+Privileged Stack Usage 13.8%
+----------------- HEAP -----------------
+Start of Native Heap Area:              141201408
+Current Native Heap Area Size:          487424 bytes ( 476 KiB )
+Current actual Native Heap usage:       366512 bytes ( 357.922 KiB )
+Maximum used Heap Size:                 487424 bytes ( 476 KiB )
+Maximum theoretical Native Heap Size:   1603629056 bytes ( 1.4935 GiB )
+Maximum actual Native Heap Size limit:  367001600 bytes ( 350 MiB )
+Native Heap Usage:                      0.0999% (theoretical: 0.0229%)
+-- Heap Details --
+RTL_Heap_min_block         (= 0): 8
+RTL_Heap_erase_on_free     (= 1): 0
+RTL_Heap_erase_on_get      (= 2): 0
+RTL_Heap_segment_threshold (= 3): 33554432
+RTL_Heap_segments_max      (= 4): 0
+RTL_Heap_space_size        (=10): 479216
+RTL_Heap_space_active      (=11): 366512
+RTL_Heap_free_blocks       (=12): 1
+RTL_Heap_free_space        (=13): 112720
+RTL_Heap_segments          (=14): 0
+RTL_Heap_segment_space     (=15): 0
+---------------- MEMORY ----------------
+Current Memory Pages: 538
+$ASPXY|22Mar20 13:42:12.34|30|ProcessInfo --END--
+$ASPXY|22Mar20 13:42:12.34|70|Found 0 IPv6 scope ID mappings with search prefix IPV6SCOPEMAP-[0-n]
+$ASPXY|22Mar20 13:42:12.35|50|minv=33, maxv=33, meth=TLSv1_2_server_method(), ssl_options=0x96010854
+$ASPXY|22Mar20 13:42:12.36|50|Using default openssl HIGH security ciphers: ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-DSS-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES256-CCM8:ECDHE-ECDSA-AES256-CCM:DHE-RSA-AES256-CCM8:DHE-RSA-AES256-CCM:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:DHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-CCM8:ECDHE-ECDSA-AES128-CCM:DHE-RSA-AES128-CCM8:DHE-RSA-AES128-CCM:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA256:ECDHE-ECDSA-CAMELLIA256-SHA384:ECDHE-RSA-CAMELLIA256-SHA384:DHE-RSA-CAMELLIA256-SHA256:DHE-DSS-CAMELLIA256-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA256:DHE-DSS-AES128-SHA256:ECDHE-ECDSA-CAMELLIA128-SHA256:ECDHE-RSA-CAMELLIA128-SHA256:DHE-RSA-CAMELLIA128-SHA256:DHE-DSS-CAMELLIA128-SHA256:ECDHE-ECDSA-AES256-SHA:ECDHE-RSA-AES256-SHA:DHE-RSA-AES256-SHA:DHE-DSS-AES256-SHA:DHE-RSA-CAMELLIA256-SHA:DHE-DSS-CAMELLIA256-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA:DHE-RSA-CAMELLIA128-SHA:DHE-DSS-CAMELLIA128-SHA:AES256-GCM-SHA384:AES256-CCM8:AES256-CCM:AES128-GCM-SHA256:AES128-CCM8:AES128-CCM:AES256-SHA256:CAMELLIA256-SHA256:AES128-SHA256:CAMELLIA128-SHA256:AES256-SHA:CAMELLIA256-SHA:AES128-SHA:CAMELLIA128-SHA
+$ASPXY|22Mar20 13:42:12.36|30|loading Server Certificate from file '$AS.CERTPEM.SERVCERT'
+$ASPXY|22Mar20 13:42:12.36|30|File '$AS.CERTPEM.SERVCERT' determined to be PEM encoded, content not checked
+$ASPXY|22Mar20 13:42:12.38|30|File '$AS.CERTPEM.SERVCERT' determined to be PEM encoded, content not checked
+$ASPXY|22Mar20 13:42:12.39|30|File '$AS.CERTPEM.SERVCERT' determined to be PEM encoded, content not checked
+$ASPXY|22Mar20 13:42:12.41|30|File '$AS.CERTPEM.CACERT' determined to be PEM encoded, content certificate
+$ASPXY|22Mar20 13:42:12.42|30|File '$AS.CERTPEM.SERVCERT' determined to be PEM encoded, content certificate
+$ASPXY|22Mar20 13:42:12.45|60|parent certificate of $AS.CERTPEM.SERVCERT is $AS.CERTPEM.CACERT
+$ASPXY|22Mar20 13:42:12.45|60|certificate $AS.CERTPEM.CACERT is self-signed, issuer /C=DE/ST=Hessen/L=Wiesbaden/O=comForte/OU=Development/CN=comForte Test CA - DO NOT USE OR TRUST
+$ASPXY|22Mar20 13:42:12.46|30|CACERTS order checked ok $AS.CERTPEM.CACERT
+$ASPXY|22Mar20 13:42:12.46|20|adding CA Certificate Chain Level 1/1: '$AS.CERTPEM.CACERT'
+$ASPXY|22Mar20 13:42:12.46|30|loading next Certificate Chain file from file '$AS.CERTPEM.CACERT'
+$ASPXY|22Mar20 13:42:12.47|30|File '$AS.CERTPEM.CACERT' determined to be PEM encoded, content not checked
+$ASPXY|22Mar20 13:42:12.48|30|File '$AS.CERTPEM.CACERT' determined to be PEM encoded, content not checked
+$ASPXY|22Mar20 13:42:12.49|20|md5 fingerprint of highest server certificate is <2E35501B3A531073D764742D469D497F>
+$ASPXY|22Mar20 13:42:12.50|20|sha1 fingerprint of highest server certificate is <50FF937FD8A9E6FF3C26528ECB1191D230D3E3EB>
+$ASPXY|22Mar20 13:42:12.51|20|sha256 fingerprint of highest server certificate is <D04AA10805C9E7E35D48A6EA0BF9DC82519D2BDF9FB9FDE28BBDFD2B1318B337>
+$ASPXY|22Mar20 13:42:12.52|20|sha384 fingerprint of highest server certificate is <E57CE25A8842959AE0998BDAFF18F07DC5C15BC018B9B77A4E8EB7E34CE7C06253C37EE1A22A7C8CB6BD8BA05025C816>
+$ASPXY|22Mar20 13:42:12.53|20|sha512 fingerprint of highest server certificate is <60E20E9DEB47F688FE500A7FBB7E3020A52D2DD00E1D475634126B00787142D0B34B0A2F0ADA6AB18293EFD74D161EAB7D435EC1AC9BF101DB5BDA60FDDFB971>
+$ASPXY|22Mar20 13:42:12.54|20|ripemd160 fingerprint of highest server certificate is <771F07C321DE727CF325DBC62E769473788B2598>
+$ASPXY|22Mar20 13:42:12.54|20|whirlpool fingerprint of highest server certificate is <65F3B644302A8CEF0B8538891DD220416D1DEAFE4941DFC144869C69EB67943FB9D358B110E629FB6588052FC379D7C3169650987D9FE2BCB77235A5E6D77E03>
+$ASPXY|22Mar20 13:42:12.55|30|loading private key from file '$AS.CERTPEM.SERVKEY'
+$ASPXY|22Mar20 13:42:12.55|30|File '$AS.CERTPEM.SERVKEY' determined to be DER encoded, content not checked
+$ASPXY|22Mar20 13:42:12.58|70|SOCKSUSER=, SOCKSHOST=*
+$ASPXY|22Mar20 13:42:12.58|70|socks user configured=0, socks port configured=0, socks host configured=0
+$ASPXY|22Mar20 13:42:12.59|60|INITIALIZEEDIT returned 0
+$ASPXY|22Mar20 13:42:12.59|20|SSL buffer size is:      SSLBUF=       16384
+$ASPXY|22Mar20 13:42:12.60|20|Socket buffer sizes are: SOCKETSNDBUF= 16384, SOCKETRCVBUF= 16384
+$ASPXY|22Mar20 13:42:12.60|20|TCP buffer sizes are:    TCPSNDBUF=    16384, TCPRCVBUF=    16384
+$ASPXY|22Mar20 13:42:12.61|70|ResolverByDNS-3: configured TCP/IP process for DNS resolving to $ZTC0.
+$ASPXY|22Mar20 13:42:12.61|70|ResolverByDNS-3: configured TCP/IP process for DNS resolving to $ZTC0.
+$ASPXY|22Mar20 13:42:12.62|70|ResolverByDNS-4: configured TCP/IP process for DNS resolving to $ZTC0.
+$ASPXY|22Mar20 13:42:12.62|70|ResolverByDNS-4: configured TCP/IP process for DNS resolving to $ZTC0.
+$ASPXY|22Mar20 13:42:12.62|50|Initializing proxy 1 of 2 (mode=PROXYS)
+$ASPXY|22Mar20 13:42:12.63|20|Starting secure-to-plain proxy, listening on 0.0.0.0:14023 (subnet $ZTC0), target host 127.0.0.1:23 over interface 0.0.0.0 on subnet $ZTC0
+$ASPXY|22Mar20 13:42:12.67|50|IP filter for ALLOWIP initialized, filter currently not active
+$ASPXY|22Mar20 13:42:12.67|70|Rule "" given, clearing rules and deactivating IPFilter
+$ASPXY|22Mar20 13:42:12.68|50|IP filter for DENYIP initialized, filter currently not active
+$ASPXY|22Mar20 13:42:12.70|30|-- PROXYS setup completed, starting to listen... --
+$ASPXY|22Mar20 13:42:12.72|60|N|IP process was set to $ZTC0
+$ASPXY|22Mar20 13:42:12.73|70|N|Created TCP socket on stack $ZTC0 for future use for 0.0.0.0:14023
+$ASPXY|22Mar20 13:42:12.76|60|Listen: trying to bind to address: - n=   16,adr=0x8705a62 (dumpFormat=3)
+$ASPXY|22Mar20 13:42:12.77|70| 0x0000 00 02 36 c7 00 00 00 00  00 00 00 00 00 00 00 00 ..6.............
+$ASPXY|22Mar20 13:42:12.78|60|Listen TCP: bind_nw local value:0.0.0.0:14023, socket 8
+$ASPXY|22Mar20 13:42:12.82|70|Performed action CombinedAction(CreateSocket,ListenSocketAction) successfully
+$ASPXY|22Mar20 13:42:12.82|50|Initializing proxy 2 of 2 (mode=PROXYS)
+$ASPXY|22Mar20 13:42:12.83|20|Starting secure-to-plain proxy, listening on 0.0.0.0:14024 (subnet $ZTC0), target host 127.0.0.1:23 over interface 0.0.0.0 on subnet $ZTC0
+$ASPXY|22Mar20 13:42:12.88|30|-- PROXYS setup completed, starting to listen... --
+$ASPXY|22Mar20 13:42:12.89|60|N|IP process was set to $ZTC0
+$ASPXY|22Mar20 13:42:12.91|70|N|Created TCP socket on stack $ZTC0 for future use for 0.0.0.0:14024
+$ASPXY|22Mar20 13:42:12.94|60|Listen: trying to bind to address: - n=   16,adr=0x8705df2 (dumpFormat=3)
+$ASPXY|22Mar20 13:42:12.94|70| 0x0000 00 02 36 c8 00 00 00 00  00 00 00 00 00 00 00 00 ..6.............
+$ASPXY|22Mar20 13:42:12.95|60|Listen TCP: bind_nw local value:0.0.0.0:14024, socket 9
+$ASPXY|22Mar20 13:42:12.99|70|Performed action CombinedAction(CreateSocket,ListenSocketAction) successfully
+$ASPXY|22Mar20 13:42:26.17|60|N|IP process was set to $ZTC0
+$ASPXY|22Mar20 13:42:26.22|60|accept_nw2: bound to address - n=   16,adr=0x8705a50 (dumpFormat=3)
+$ASPXY|22Mar20 13:42:26.23|70| 0x0000 08 70 5a 50 08 70 5a f0  08 70 5e a0 08 70 5f 40 .pZP.pZ..p^..p_@
+$ASPXY|22Mar20 13:42:26.33|60|N| Firewall: (accepting) checking remote IP address 192.168.117.3: allowed '(no filter)'=1,denied '(no filter)'=0
+$ASPXY|22Mar20 13:42:26.35|60|N|< accepted new TCP socket 10 from 192.168.117.3 on port 14023
+$ASPXY|22Mar20 13:42:26.37|60|Accept of ProxyServer completed, refreshing targethost IP address "127.0.0.1" before creating new proxy instance
+$ASPXY|22Mar20 13:42:26.37|60|Refreshed IP of targethost, targethost info = "127.0.0.1"
+$ASPXY|22Mar20 13:42:26.39|70|ResolverByDNS-5: configured TCP/IP process for DNS resolving to $ZTC0.
+$ASPXY|22Mar20 13:42:26.53|60|TARGETSUBNET TCP/IP Process info: TCP/IP Process "$ZTC0": type=CIPSAM, fullObjectFileName="\NPNSX01.$SYSTEM.SYS00.CIPSAM", IPv6 support: YES
+$ASPXY|22Mar20 13:42:26.53|60|Proxy configured to explicitly wait for remote close? 0
+$ASPXY|22Mar20 13:42:26.57|60|N|IP process was set to $ZTC0
+$ASPXY|22Mar20 13:42:26.58|70|N|Created TCP socket on stack $ZTC0 for future use for 0.0.0.0:0
+$ASPXY|22Mar20 13:42:26.60|60|N|< Connecting TCP to 127.0.0.1:23 (local bind 0.0.0.0:0)
+$ASPXY|22Mar20 13:42:26.61|60|N| Firewall: (connecting) checking remote IP address 127.0.0.1: allowed '(no filter)'=1,denied '(no filter)'=0
+$ASPXY|22Mar20 13:42:26.66|70|Connect TCP to 127.0.0.1:23 : Won't call bind_nw because local bind address is 0.0.0.0:0
+$ASPXY|22Mar20 13:42:26.69|60|N|TCP Calling connect_nw with SocketAddress "127.0.0.1:23"
+$ASPXY|22Mar20 13:42:26.71|70|Performed action CombinedAction(CreateSocket,SetServerSocketOptionsAction,ConnectSocketAction) successfully
+$ASPXY|22Mar20 13:42:26.81|70|N|< moved new passive TCP socket from 10 to -1: [10] <Sec rem acc PROXY>: 10.0.0.173:14023<--192.168.117.3:59419
+$ASPXY|22Mar20 13:42:26.88|70|initializing TLS for socket 10, mode=1(TLS_SERVER)
+$ASPXY|22Mar20 13:42:26.89|70|accepting secure socket, TLS for socket 10, mode=1(TLS_SERVER)
+$ASPXY|22Mar20 13:42:27.00|50|P1|< 10.0.0.173:14023<--192.168.117.3:59419 opened connection, forwarding to 127.0.0.1:23
+$ASPXY|22Mar20 13:42:27.91|70|N|> connect new TCP socket: [11] <Pln loc conn PROXY>: 127.0.0.1:41028-->127.0.0.1:23, completed, calling recv_nw
+$ASPXY|22Mar20 13:42:27.97|50|N|< connected new TCP socket: [11] <Pln loc conn PROXY>: 127.0.0.1:41028-->127.0.0.1:23, socket 11
+$ASPXY|22Mar20 13:42:27.98|50|P1T|> connected to server 127.0.0.1 on socket 11, session count is 1
+$ASPXY|22Mar20 13:42:28.39|50|T3|session 10.0.0.173:14023<--192.168.117.3:59419: cipher suite TLSv1.2/ECDHE-RSA-AES256-GCM-SHA384 negotiated
+$ASPXY|22Mar20 13:42:28.40|60|T3|session 10.0.0.173:14023<--192.168.117.3:59419: peer cert info is <(no peer certificate present)>
+$ASPXY|22Mar20 13:42:36.05|60|P1|> CC other side shutdown 0,new logic 0, forced 0, other_side_is_secure=0, is ftp runmode:0
+$ASPXY|22Mar20 13:42:36.06|50|P1|> CC client <Sec rem acc PROXY>[TLS_SERVER](0/1-1): 10.0.0.173:14023<--192.168.117.3:59419 close with error 0
+$ASPXY|22Mar20 13:42:36.07|50|P1|> CC immediate CLOSEing of both proxy sockets
+$ASPXY|22Mar20 13:42:36.10|60|N| Flushing secure socket <Sec rem acc PROXY>[TLS_SERVER](0/1-1): 10.0.0.173:14023<--192.168.117.3:59419
+$ASPXY|22Mar20 13:42:36.11|60|N| Flushing plain socket [10] <Sec rem acc PROXY>: 10.0.0.173:14023<--192.168.117.3:59419
+$ASPXY|22Mar20 13:42:36.16|60|N| Flushing secure socket <Sec rem acc PROXY>[TLS_SERVER](0/1-1): 10.0.0.173:14023<--192.168.117.3:59419
+$ASPXY|22Mar20 13:42:36.17|60|N| Flushing plain socket [10] <Sec rem acc PROXY>: 10.0.0.173:14023<--192.168.117.3:59419
+$ASPXY|22Mar20 13:42:36.20|60|N| Flushing plain socket [10] <Sec rem acc PROXY>: 10.0.0.173:14023<--192.168.117.3:59419
+$ASPXY|22Mar20 13:42:36.21|60|N| calling shutdown(2) on socket 10([10] <Sec rem acc PROXY>: 10.0.0.173:14023<--192.168.117.3:59419)
+$ASPXY|22Mar20 13:42:36.26|60|N| calling FILE_CLOSE_ for socket 10([10] <Sec rem acc PROXY>: 10.0.0.173:14023<--192.168.117.3:59419)$ASPXY|22Mar20 13:42:36.26|70|D:/Gitlab/Runner/builds/8e857edc/0/SSL/SWAP/src/Socket.cpp:909 closing fnum 10
+$ASPXY|22Mar20 13:42:36.32|60|N| Flushing plain socket [11] <Pln loc conn PROXY>: 127.0.0.1:41028-->127.0.0.1:23
+$ASPXY|22Mar20 13:42:36.33|60|N| calling shutdown(2) on socket 11([11] <Pln loc conn PROXY>: 127.0.0.1:41028-->127.0.0.1:23)
+$ASPXY|22Mar20 13:42:36.40|60|N| calling FILE_CLOSE_ for socket 11([11] <Pln loc conn PROXY>: 127.0.0.1:41028-->127.0.0.1:23)
+$ASPXY|22Mar20 13:42:36.40|70|D:/Gitlab/Runner/builds/8e857edc/0/SSL/SWAP/src/Socket.cpp:909 closing fnum 11
+$ASPXY|22Mar20 13:42:36.43|70|Delete scheduled for CSecureSocket 10.0.0.173:14023<--192.168.117.3:59419
+$ASPXY|22Mar20 13:42:36.59|70|Deleting SecureSocket 10.0.0.173:14023<--192.168.117.3:59419

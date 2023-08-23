@@ -8,6 +8,7 @@ def open_input_file(filename):
         print(f"The file '{filename}' was not found.");
     except Exception as e:
         print(f"An error ocurred: {e}.");
+    return None
 
 def save_output_file(filename, content):
     try:
